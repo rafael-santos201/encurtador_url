@@ -1,6 +1,6 @@
-var builder = WebApplication.CreateBuilder(args);
+
 using Microsoft.EntityFrameworkCore;
-using back.Data;
+using encurtador_url.back.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

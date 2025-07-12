@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace encurtador_url.Back.Models
+namespace encurtador_url.back.Models
 {
     public class UrlMapping
     {
