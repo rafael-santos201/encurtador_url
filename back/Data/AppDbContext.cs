@@ -8,6 +8,7 @@ namespace encurtador_url.back.Data
         public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options) { }
 
-        public DbSet<UrlMapping> UrlMappings => Set<UrlMapping>();
+        public DbSet<UrlMapping> UrlMappings { get; set; }
+
     }
 }
